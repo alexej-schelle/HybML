@@ -1,2 +1,2 @@
 
-# Install with pip install git+https://github.com/user/namelib.git
+## Install with pip install git+https://github.com/user/namelib.git
