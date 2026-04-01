@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "securemail"
+version = "0.1.0"
+description = "A secure email Python library with standard GAN technology"
+readme = "README.md"
+requires-python = ">=3.8"
+
+# Hier Abhängigkeiten eintragen, falls du welche hast
+dependencies = [
+    "cryptography>=38.0.0",
+    "requests>=2.31.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/alexej-schelle/HybML"
+
+# Setuptools-spezifische Anweisung zum Finden der Packages
+[tool.setuptools.packages.find]
+where = ["src"]
